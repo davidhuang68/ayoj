@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '5*9f5q57mqmlz2#f$x1h76&jxy#yortjl1v+l*6hd18$d*yx#0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -395,6 +395,7 @@ LANGUAGES = [
     ('de', _('German')),
     ('el', _('Greek')),
     ('en', _('English')),
+    ('en-ca', _('Canadian English')),
     ('es', _('Spanish')),
     ('fr', _('French')),
     ('hr', _('Croatian')),
